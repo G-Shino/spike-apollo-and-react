@@ -8,12 +8,12 @@
     "apollo-datasource": "^0.7.1",
     "apollo-server": "^2.14.1",
     "graphql": "^15.0.0",
-    "sequelize": "^5.21.11",
+    "sequelize": "^4.42.0",
     "sqlite3": "^4.2.0"
   },
   "scripts": {
     "db:initialize": "tsc && node build/db/scripts/initialize.js",
-    "start": "tsc && node build/index.js localhost 4000",
+    "start": "tsc && node build/index.js",
     "build": "tsc"
   },
   "devDependencies": {
