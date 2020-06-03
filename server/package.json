@@ -2,5 +2,24 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "apollo-datasource": "^0.7.1",
+    "apollo-server": "^2.14.1",
+    "graphql": "^15.0.0",
+    "sequelize": "^5.21.11",
+    "sqlite3": "^4.2.0"
+  },
+  "scripts": {
+    "db:initialize": "tsc && node build/db/scripts/initialize.js",
+    "start": "tsc && node build/index.js localhost 4000",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "@types/sequelize": "^4.28.9",
+    "@types/sqlite3": "^3.1.6",
+    "typescript": "^3.9.3"
+  }
 }
