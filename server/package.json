@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "apollo-datasource": "^0.7.1",
-    "apollo-server": "^2.14.2",
+    "apollo-server": "^2.25.3",
     "graphql": "^15.0.0",
     "sequelize": "^4.42.0",
     "sqlite3": "^4.2.0"
